@@ -4,7 +4,7 @@ A personal portfolio showcasing my projects, skills, and experience as a develop
 
 ## 🌐 Live Demo
 
-[View Portfolio Live](https://myportfolio-astrie-nums-projects.vercel.app/project)
+[View Portfolio Live](https://myportfolio-astrie-num-projects.vercel.app/project)
 
 ## 📬 Contact
 
