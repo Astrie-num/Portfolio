@@ -8,30 +8,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello, I am <span className="purple">Asterie Uwumviyimana </span>
-            from <span className="purple"> Kicukiro, Rwanda.</span>
+            Hi, I'm <span className="purple">Asterie Uwumviyimana</span> from <span className="purple">Kicukiro, Rwanda</span>.
             <br />
-            I am currently a final year student at Rwanda Coding Academy.
+            Currently, I'm finishing up my studies at Rwanda Coding Academy, always striving to blend code with creativity.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Beyond programming, I’m passionate about exploring new ideas and experiences!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Reading
+              <ImPointRight /> Devouring books (especially on history & innovation)
             </li>
             <li className="about-activity">
-              <ImPointRight /> Listening to music
+              <ImPointRight /> Creating playlists & discovering new music
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Mapping out adventures & traveling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "If you want new ideas, read old books."{" "}
+            "Curiosity is the engine of achievement."
           </p>
-          <footer className="blockquote-footer">C.S. Lewis</footer>
+          <footer className="blockquote-footer">Ken Robinson</footer>
         </blockquote>
       </Card.Body>
     </Card>

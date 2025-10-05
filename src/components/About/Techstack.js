@@ -18,41 +18,48 @@ import {
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-    </Row>
+    <>
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <span style={{ color: "#b39ddb", fontSize: "1.1em", marginBottom: "20px" }}>
+          I love building with these technologies—each one helps me turn ideas into reality!
+        </span>
+      </Row>
+      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiReact />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiJavascript1 />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiNodejs />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiPython />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiMongodb />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiNextdotjs />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiGit />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiSolidity />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiPostgresql />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <CgCPlusPlus />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiJava />
+        </Col>
+      </Row>
+    </>
   );
 }
 

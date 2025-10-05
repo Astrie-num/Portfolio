@@ -27,10 +27,14 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download Resume
+            &nbsp;Get My Resume
           </Button>
         </Row>
-
+        <Row style={{ justifyContent: "center", marginTop: "20px" }}>
+          <span style={{ color: "#b39ddb", fontSize: "1.1em" }}>
+            Want to know more? Download my resume or preview it below!
+          </span>
+        </Row>
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />

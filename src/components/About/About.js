@@ -21,7 +21,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Who <strong className="purple">Am I?</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -30,19 +30,20 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={passport} alt="about" className="img-fluid"
+            <img src={passport} alt="Asterie passport"
+            className="img-fluid"
             style={{ maxHeight: "400px", borderRadius:100 , marginTop:-60}}
              />
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          My <strong className="purple">Tech Toolbox</strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Favorite Tools</strong>
         </h1>
         <Toolstack />
 

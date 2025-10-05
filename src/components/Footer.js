@@ -14,10 +14,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Asterie Uwumviyimana</h3>
+          <h3>Crafted by Asterie Uwumviyimana</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} AU</h3>
+          <h3>© {year} All Rights Reserved</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -25,7 +25,7 @@ function Footer() {
               <a
                 href="https://github.com/Astrie-num"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,7 +35,7 @@ function Footer() {
               <a
                 href="https://x.com/asterie_07"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -43,9 +43,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="www.linkedin.com/in/asterie-uwumviyimana"
+                href="https://www.linkedin.com/in/asterie-uwumviyimana/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -55,7 +55,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/__astri___/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
